@@ -1,8 +1,32 @@
-Bu kısa script'i terminal'e sadece password yazarak'da kullanabilirsiniz.
+# Random Güçlü Şifre Oluşturucu 🔐
 
-~/.bashrc (ya da kullandığın shell ~/.zshrc) içine ekle:
-vim ~/.bashrc
-# some more ls aliases | Kısmını Bul Ve o Kısam Alttaki Komutu Yaz.
-alias password="$HOME/file/location/pass.sh"
-Değişiklikleri uygula:
-source ~/.bashrc
+> Bu Bash scripti, rastgele ve güçlü şifreler üretmek için hazırlanmıştır.
+
+
+## İçindekiler
+
+- [Kurulum](#kurulum)
+- [Bash Alias ile Kullanım](#alias)
+
+
+---
+## Kurulum
+```bash
+1. Repo’yu klonlayın:
+git clone https://github.com/crptx1337/strong_password.git
+cd strong_password
+
+2. Yetkilendirin
+chmod +x pass.sh
+
+3.Çalıştırmak İçin
+./pass.sh
+```
+
+## Alias
+```
+git status
+git add
+git commit
+```
+
