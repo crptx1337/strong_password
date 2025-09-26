@@ -24,9 +24,23 @@ chmod +x pass.sh
 ```
 
 ## Alias
-```
-git status
-git add
-git commit
+
+```html
+
+Dosyayı düzenleyin:
+vim ~/.bashrc
+# veya
+vim ~/.zshrc
+
+# Dosyanın uygun bir yerine aşağıdaki satırı ekleyin:
+alias password="$HOME/file/location/pass.sh"
+
+Shell'e password yazarsanız size 20 karakterli random bir parola verecektir..
+password
 ```
 
+
+> [!NOTE]
+> $HOME Sonrasında pass.sh hangi dosya yoluna kayıtlı ise orayı yazın.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
